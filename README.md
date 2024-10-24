@@ -1,4 +1,6 @@
-# Use-Video-P2P
+# Step-by-Step Guide to run Video-P2P
+
+original video-p2p project: [here]([project](https://github.com/dvlab-research/Video-P2P))
 
 ## problem 1: 
 
