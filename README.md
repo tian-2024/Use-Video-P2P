@@ -35,3 +35,29 @@ download model.bin from the page:
 https://hf-mirror.com/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main/unet
 
 ![alt text](img/img-1.png)
+
+
+## problem 4
+
+> xformers is not available. Make sure it is installed correctly
+
+
+solution:
+
+pip install xformers==0.0.16
+
+![alt text](img/img-2.png)
+
+pip install torchvision==0.14.1
+
+## problem 5
+
+> select gpu
+
+solution:
+
+
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = str(7)
+
+Then the tuning will cost about 5 minutes, which is same as the original paper.
