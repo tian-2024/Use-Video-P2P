@@ -1,8 +1,14 @@
-# Step-by-Step Guide to run Video-P2P
+# Guide of Video-P2P
 
-original video-p2p project: [here]([project](https://github.com/dvlab-research/Video-P2P))
+- video p2p: https://github.com/dvlab-research/Video-P2P
+
+The video p2p project uses too old version of diffusers.
+
+It's hard to change the version. so it's better to use the version of original code.
 
 ## problem 1: 
+
+
 
 > ImportError: cannot import name 'cached_download' from 'huggingface_hub'
 
